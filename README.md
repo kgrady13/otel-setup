@@ -126,7 +126,7 @@ OTEL_AUTH_TOKEN=your-token-here
 
 ## Controlling Data Volume (Sampling)
 
-For high-traffic apps, you want to sample at the SDK level so data is filtered **before** it leaves the function. This is where you control cost.
+For high-traffic apps, you want to sample at the SDK level so data is filtered **before** it leaves the function.
 
 ### With `@vercel/otel` (Option A)
 
